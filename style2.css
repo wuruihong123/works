@@ -1,0 +1,159 @@
+/* 全局样式 */
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header .logo {
+  font-weight: bold;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Banner */
+#banner {
+  background-color: burlywood;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+#banner .button {
+  display: inline-block;
+  background-color: coral;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+#banner .button:hover {
+  background-color: blue;
+}
+
+/* Section */
+.posts{
+    margin-bottom: 20px;
+    color: cadetblue;
+    text-align: center;
+}
+
+.posts .button{
+    display: inline-block;
+    background-color: coral;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+section {
+  background-color: antiquewhite;
+  padding: 50px 20px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: center;
+}
+
+/* Features */
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 50px;
+  justify-items: center;
+}
+
+.features article {
+  padding: 30px;
+  background-color: blanchedalmond;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.features h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.features p {
+  font-size: 20px;
+  color: #555;
+}
+
+/* icons */
+.icons {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.icons li {
+  margin: 0 10px;
+}
+
+.icons li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.icons li a:hover {
+  background-color: darkkhaki;
+}
+
+/* Sidebar */
+#sidebar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    background-color: coral;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding: 20px;
+}
+
+#wrapper{
+    margin-left: 300px;
+}
