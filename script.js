@@ -77,3 +77,12 @@ circles.forEach(circle => {
         }, 100);
     });
 });
+
+//规则说明
+window.onload = function() {
+    var userConfirmation = confirm("点击开始游戏后，员工栏会出现三个员工，依据员工数量及分类点击相应部门，时间限制内点击完成得分，失败游戏结束");
+    if (!userConfirmation) {
+        // 用户点击了取消按钮，关闭网页
+        window.close();
+    }
+}
