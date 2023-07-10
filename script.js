@@ -18,7 +18,7 @@ buttons.forEach(button => {
 
 // 开始游戏函数
 function startGame() {
-    score = 0; // 初始化得分为0
+    score = 0;// 初始化得分为0
     document.getElementById('score').innerText = '得分: ' + score; // 显示得分
     generateWords(); // 生成单词
     timer = setTimeout(endGame, 5000); // 开始倒计时定时器，5秒后游戏结束
@@ -78,7 +78,6 @@ circles.forEach(circle => {
     });
 });
 
-//规则说明
 window.onload = function() {
     var userConfirmation = confirm("点击开始游戏后，员工栏会出现三个员工，依据员工数量及分类点击相应部门，时间限制内点击完成得分，失败游戏结束");
     if (!userConfirmation) {
